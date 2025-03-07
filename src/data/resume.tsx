@@ -110,24 +110,21 @@ export const DATA = {
     {
       title: "Probo",
       href: "",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "start - end",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Probo is a platform where individuals and businesses can conduct surveys, polls, and gather opinions. It is designed to allow users to gather feedback on different topics from a broader audience in a quick and interactive manner.",
       technologies: [
+        "React.js",
         "Next.js",
         "Typescript",
         "PostgreSQL",
-        "Prisma",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://probo.vercel.com",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -230,7 +227,7 @@ export const DATA = {
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
   ],
-  hackathons: [
+  hackathons: [/*
     {
       title: "Hack Western 5",
       dates: "November 23rd - 25th, 2018",
@@ -614,5 +611,5 @@ export const DATA = {
         },
       ],
     },
-  ],
+  */],
 } as const;
